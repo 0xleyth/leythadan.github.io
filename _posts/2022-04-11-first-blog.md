@@ -1,5 +1,5 @@
 ---
-title:
+title: my first post
 layout: post
 categories: github
 - github
