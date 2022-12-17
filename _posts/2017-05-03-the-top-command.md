@@ -1,11 +1,11 @@
 ---
-title:  "All about the top command"
+title:  "All about the `top` command"
 mathjax: true
 layout: post
 comments: true
 categories: media
 ---
-
+### What is it ?
 The `top` command is a Unix utility that displays information about the running processes on a system, including their `CPU` and `memory` usage. When you run the `top` command, it displays a list of the processes that are currently running on the system, along with information about each process, such as its process ID (`PID`), `user`, `CPU usage`, and `memory usage`.
 
 There are several fields that are displayed by the top command, including:
@@ -36,6 +36,20 @@ There are several fields that are displayed by the top command, including:
   - the command that was used to start the process
 
 You can use various options and arguments with the `top` command to control the way it displays information and to customize its behavior. For example, you can use the `-o` option to sort the process list by a specific field, such as `CPU usage` or `memory usage`. You can also use the `-n` option to specify the number of iterations to display, or the `-d ` option to specify the delay between iterations.
+
+
+### When is it useful ? 
+
+The `top` command is a useful tool for monitoring the performance and resource usage of a Linux system. It can be used to view the running processes on the system, along with information about their `CPU` and memory usage, and to identify processes that are using a lot of resources.
+
+There are several situations in which you might use the `top` command in Linux:
+
+When you want to check the overall resource usage of your system, including `CPU` and memory usage, to determine if your system is running efficiently.
+When you want to identify processes that are using a lot of resources, such as `CPU` or memory, so you can take action to optimize their performance or terminate them if necessary.
+When you want to monitor the performance of a specific process, such as a server or a background task, to ensure that it is running smoothly and using resources efficiently.
+When you want to troubleshoot performance issues on your system, such as slowdowns or high CPU or memory usage, by identifying the processes that are causing the issue.
+When you want to monitor the performance of your system over time, by running the top command in batch mode (using the `-b` option) and redirecting the output to a file. This can help you identify trends and patterns in resource usage over time.
+
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
