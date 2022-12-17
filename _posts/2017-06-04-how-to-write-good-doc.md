@@ -1,12 +1,12 @@
 ---
-title:  "All about the `top` command"
+title:  "How to write good documentation"
 mathjax: true
 layout: post
 comments: true
 categories: media
 ---
 
-### Primer on writing good documentation
+### A primer on writing good documentation
 
 
 1. Determine the purpose and audience of the documentation: Before you begin writing, it is important to understand the purpose of the documentation and the audience for whom it is intended. This will help you to focus your writing and ensure that the documentation is clear and useful.
