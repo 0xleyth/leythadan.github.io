@@ -6,10 +6,11 @@ comments: true
 categories: media
 ---
 
-The world falls apart
-As the darkness closes in
-The end is near
-
+```
+    The world falls apart
+    As the darkness closes in
+    The end is near
+```
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
