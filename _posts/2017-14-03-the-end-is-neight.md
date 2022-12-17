@@ -1,5 +1,5 @@
 ---
-title:  "How the ping command works"
+title:  "The end is near"
 mathjax: true
 layout: post
 comments: true
