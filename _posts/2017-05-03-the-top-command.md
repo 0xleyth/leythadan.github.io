@@ -51,6 +51,28 @@ When you want to troubleshoot performance issues on your system, such as slowdow
 When you want to monitor the performance of your system over time, by running the top command in batch mode (using the `-b` option) and redirecting the output to a file. This can help you identify trends and patterns in resource usage over time.
 
 
+### To be used in conjunction with the top command 
+
+Luckily, there are several other tools that can be used in conjunction with the `top` command to monitor and optimize the performance of a Linux system. Some of these tools include:
+
+`ps`: 
+- This command displays information about processes that are running on the system, including their process ID, user, CPU and memory usage, and command. It can be used to view the status of a specific process or to list all processes on the system.
+free: This command displays information about the system's memory usage, including the total amount of memory available, the amount of memory used, and the amount of memory that is free.
+
+`vmstat`: 
+- This command displays information about the system's virtual memory and CPU usage, including the number of processes that are waiting to be run, the amount of memory that is used, and the amount of CPU time that is being used.
+
+`iostat`: 
+- This command displays information about the system's input/output (I/O) usage, including the amount of data that is being read and written to disk, and the average wait times for I/O operations.
+
+`mpstat`: 
+- This command displays information about the system's CPU usage, including the usage of individual CPUs or CPU cores, and the amount of time that is spent in different CPU states (e.g., user, system, idle).
+These tools can be used together with the top command to provide a more complete picture of the performance and resource usage of a Linux system, and to help you identify and troubleshoot performance issues.
+
+
+
+
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
